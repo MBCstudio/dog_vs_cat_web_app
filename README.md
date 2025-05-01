@@ -7,7 +7,7 @@ This is a web application that uses a **Keras-trained AI model** to classify ima
 ## 📸 Demo
 
 ### Web App Interface:
-![Web App Screenshot](https://github.com/your_username/your_repo_name/raw/main/images/web_app.png)
+![Web App Screenshot](demo_read_me/demo_2.png)
 
 ### Console Prediction Output:
 ![Console Output](https://github.com/your_username/your_repo_name/raw/main/images/console_output.png)
