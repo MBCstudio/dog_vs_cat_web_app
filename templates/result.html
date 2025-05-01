@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wynik</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div>
+            <h1>Zalacz kolejne zdjecie</h1>
+            <form action="/przetworz_zdjecie" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="zdjecie" class="form-label">Wybierz zdjęcie:</label>
+                    <input type="file" class="form-control" id="zdjecie" name="zdjecie">
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill px-3">Prześlij zdjęcie</button>
+        </div>
+        <div>
+            <h2>{{ result }}</h2>
+            <img src="{{ image_url }}" alt="Zdjęcie">
+        </div>
+    </div>
+</body>
+</html>

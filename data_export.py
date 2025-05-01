@@ -1,5 +1,7 @@
 import os, shutil
 
+#env path PYTHONUNBUFFERED=1;LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/marcin/miniconda3/envs/tf/lib/:/home/marcin/miniconda3/envs/tf/lib/python3.9/site-packages/nvidia/cudnn/lib);XLA_FLAGS=--xla_gpu_cuda_data_dir=/home/marcin/miniconda3/envs/tf/lib/)
+
 orginal_data_path = '/home/marcin/PycharmProjects/pythonProject2/archive/dogs-vs-cats'
 
 #making dirs for data

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz przesyłania zdjęć</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+        <div class="container mt-5">
+            <h1>Przesyłanie zdjęcia</h1>
+            <form action="/przetworz_zdjecie" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="zdjecie" class="form-label">Wybierz zdjęcie:</label>
+                    <input type="file" class="form-control" id="zdjecie" name="zdjecie">
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill px-3">Prześlij zdjęcie</button>
+            </form>
+        </div>
+</body>
+</html>
+
+<!--  <label for="formFile" class="form-label">Default file input example</label>-->
+<!--  <input class="form-control" type="file" id="formFile">-->
