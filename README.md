@@ -8,10 +8,10 @@ This is a web application that uses a **Keras-trained AI model** to classify ima
 
 ### Web App Interface:
 ![Web App Screenshot](demo_read_me/demo_2.png)
+![Web App Screenshot](demo_read_me/demo_3.png)
 
 ### Console Prediction Output:
-![Console Output](https://github.com/your_username/your_repo_name/raw/main/images/console_output.png)
-
+![Console Output](demo_read_me/demo_4.png)
 
 ---
 
